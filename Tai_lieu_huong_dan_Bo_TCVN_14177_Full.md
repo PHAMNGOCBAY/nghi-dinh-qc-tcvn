@@ -2,7 +2,7 @@ TÀI LI Ệ U H ƯỚ NG D Ẫ N ÁP D Ụ NG TCVN T Ổ CH Ứ C VÀ S Ố HÓA
 
 1
 
-![Image](images/image_000000_75552c04b936613ab7520fe585ef38ffd3e5b7c02a5ba7ff689dfe04cad9ecb3.png)
+![Image](images/image_000000_758b5ac7e4d4fdd3699b3738d2aff48d4310f3f4b0fe648cb4c06150b3407397.png)
 
 HUC VÀ SÓ HÓA THÔNG TIN VÊ CÔNG TRINH XÂY D'NG, BAO GÔM MÔ HINH HÓA THÔNG TIN CÔNG TRINH (BIM) – QUÀN LÝ THÔNG TIN S DNG MÔ HINH HÓA THÔNG TIN CÔNG TRINH
 
@@ -164,13 +164,13 @@ Bộ tiêu chuẩn ISO-19650 ra đời bắt đầu từ 2018 và phát triể
 
 Hình 1. Minh họa quá trình phát triển của bộ tiêu chuẩn ISO 19650
 
-![Image](images/image_000001_0f866567a314c14e929061f73aadaac480c07cb6cde53014b71b37d25f20872b.png)
+![Image](images/image_000001_1fa6d62d098872921431b00860fd7fd1d196cb777ebdf8f7249db75b7c9aa0b1.png)
 
 Ngoài ra với Vương quốc Anh, các vấn đề về mô hình hóa thông tin công trình (BIM) đều dựa trên bộ tiêu chuẩn ISO-19650 này làm khung phát triển, các tài liệu BIM xây dựng từ tiêu chuẩn này giúp việc triển khai trong các dự án được thuận lợi hơn. Phần lớn các tài liệu thuộc hệ thống ISO-19650 được cấu trúc và phát hành miễn phí, có thể truy cập tại trang web: https://www.ukbimframework.org/
 
 Hình 2.
 
-![Image](images/image_000002_577eb2616beb0cca0180e4d155100c7a3f611545d9b3f5e5f64b88f2db317b3c.png)
+![Image](images/image_000002_f6252d89849ca6fcd64bc58b6b4edd3644f392944d95fffc18006f304688a1ba.png)
 
 Hình ảnh minh họa cấu trúc hướng dẫn thực hành theo bộ tiêu chuẩn ISO 19650
 
@@ -563,7 +563,7 @@ Ví dụ: Theo hình dưới mã trạng thái có thể cung cấp thời gia
 
 Hình 3. Ví dụ về mã trạng thái trong dự án cụ thể
 
-![Image](images/image_000003_bf347b5fc9a0426474f2bf98614cba04ff397b5cac65599cf43a53d52d8a9349.png)
+![Image](images/image_000003_ddc2eba340c031e5ef369c4224e2f632dbe38c9b68651ffee5a099134e14ca42.png)
 
 ## Mô hình hóa thông tin công trình (BIM - building information modeling) (Điều 3.3.14, TCVN 14177-1:2024)
 
@@ -601,7 +601,7 @@ Quay trở lại, thuật ngữ 'mức độ nhu cầu thông tin' (level of in
 
 Hình 4. Tài liệu LOD Spec của BIM forum
 
-![Image](images/image_000004_65ac8f0aa4a2322b867b174e1ba389ac05254bbbc4619e6c938af221d28afd13.png)
+![Image](images/image_000004_d5756fa6de257d854e3e8862faa561dc77b883f1646de57b298b1e596b3d0d6f.png)
 
 (được cập nhật hàng năm và được sử dụng rộng rãi toàn cầu) (Nguồn website: bimforum.org)
 
@@ -611,7 +611,7 @@ Hình 4. Tài liệu LOD Spec của BIM forum
 
 BS EN 17412-1:2020
 
-![Image](images/image_000005_54fd5c96515b93f3592d3197a8e4fd8cb627aa70f1263a70bd92f378f4574080.png)
+![Image](images/image_000005_37d90a67f32a8b94828c9c8bfae68c42955925d6e42dcc0e97e13e460fe2849a.png)
 
 ## Hình 5. Tiêu chuẩn BS EN 171412-1:2020 của (Vương quốc Anh)
 
@@ -647,7 +647,7 @@ Trong thực tế khi sang tiếng Việt, hai thuật ngữ (stage) và (phase)
 
 Hình 6 . Tóm tắt tổng thể và các yêu cầu quan trọng của các 'Stage' thuộc Riba đã công bố toàn cầu, các yêu cầu được thiết lập trong kế hoạch triển khai (plan of work)
 
-![Image](images/image_000006_825352f9a825fcfd0b281e45faa595eaf9db1f484430aa7e8d38a4217cfd42d4.png)
+![Image](images/image_000006_cfe7b02eca44db28d1fe27360ec5a44db049d9e8ba1a015349ab3e596dec278c.png)
 
 (Nguồn: Architecture.com)
 
@@ -673,7 +673,7 @@ Hai TCVN 14177-1:2024 và TCVN 14177-2:2024 dựa trên bộ tiêu chuẩn ISO 1
 
 Hình 7. Diễn giải hình 1 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 196501:2018) về các bước hoàn thiện của mô hình và số hóa trình tự quản lý thông tin
 
-![Image](images/image_000007_ba5f2544ed7fa40b50dab348600152d7f37e64912304b24bdffc6e99271a0506.png)
+![Image](images/image_000007_4c52a6dafeac8263f9d9aa4855b439b577de37ab92816c37f238867eaa8ae8ab.png)
 
 Ở hình 7, một quan điểm tổng quan về các giai đoạn phát triển của quản lý thông tin tương tự và thông tin kỹ thuật số, là một nguyên tắc quan trọng để phát triển bộ TCVN 14177 dựa trên ISO 19650.
 
@@ -729,7 +729,7 @@ Với những khó khăn trên không có nghĩa việc áp dụng các nguyê
 
 ## Hướng dẫn áp dụng TCVN 14177-1:2024; TCVN 14177-2:2024
 
-![Image](images/image_000008_dd2b733eb5074df463d0080f3dc38b526d944d48064866c8325a2465f90fdf84.png)
+![Image](images/image_000008_674245df88165bf74de867fd90d89ad8492197e244532d94f11e824a73b863d8.png)
 
 Chú thích: Trong hình này, 'đóng góp vào' có nghĩa là 'cung cấp đầu vào cho', 'làm rõ' có nghĩa là 'xác định nội dung, cấu trúc và phương pháp luận
 
@@ -894,11 +894,11 @@ Hình 9. Diễn giải hình 3 của tiêu chuẩn TCVN 14177-1:2024 (biên so�
 
 Hình 4 trong TCVN 14177-1:2024 dựa trên ISO 19650-1:2018 làm rõ nguyên tắc căn bản trong quản lý thông tin. Theo yêu cầu thông tin, lập kế hoạch tạo lập (cung cấp) thông tin,  cách thức thực hiện sau đó hình thành (chuyển giao/phân phối/cung cấp thông tin), chuyển đến cổng phê duyệt xác thực sự 'tin cậy' của thông tin. Nếu thông tin được đảm bảo tính 'tin cậy' sẽ được chuyển giao/phân phối/cung cấp, công bố, nếu không đảm bảo quay lại vòng lặp phản hồi để bắt đầu lại quá trình.
 
-![Image](images/image_000009_fd3aa9d5e908a4c4fd2958f9c4d2ce917ced4d325104a3826f7083d9bb94f8be.png)
+![Image](images/image_000009_f3426a5f7f7fccf9d8d1d9b11e1817891c9b06936ef2e04cc7b0cb3826da76be.png)
 
 Hình 10. Diễn giải hình 4 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 196501:2018) về làm rõ các nguyên tắc để thông tin đảm bảo tính "tin cậy"
 
-![Image](images/image_000010_a0fc35a2e8c6dc09422b277d666087415e09489228ca13e88b35c86dd14d1318.png)
+![Image](images/image_000010_2f12562396e69da49d8cb6a7c9f44bcb6d1e59cead54860dff32ac74642a6ad2.png)
 
 Các thông tin yêu cầu phải làm rõ, thuộc trách nhiệm của bên đặt hàng (appointing party). Việc lập kết hoạch, trả lời phản hồi các yêu cầu thông tin (IR) và làm rõ các phương pháp để đáp ứng các yêu cầu thông tin (IR) này. Sau khi nhận được, chúng thuộc trách nhiệm của bên thực hiện chính (lead appoited party).
 
@@ -906,7 +906,7 @@ Quá trình hình thành tài sản xây dựng trải qua nhiều bước (các
 
 Hình 11. Diễn giải hình 5 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 196501:2018) về minh họa các các quá trình con trong tổng thể chung, mỗi quá trình con nên có một thỏa thuận ương ứng
 
-![Image](images/image_000011_a29464b2d918a25af0aec566f05eb3c71677026200949e00362a9a685ea5c3ad.png)
+![Image](images/image_000011_565b663a08462215d7b27fc2b77369875985ca38e5a523ab761f6f8b0200e947.png)
 
 ## 6.2.3. Nguyên tắc chuyển giao thông tin của nhóm chuyển giao (delivery team) cho việc ra các quyết định quan trọng của bên đặt hàng
 
@@ -914,7 +914,7 @@ Việc ra quyết định tại các bước (stage) của dự án với các c
 
 Hình 12. Diễn giải hình 6 trong TCVN 14177 -1:2024 ( biên soạn căn cứ theo ISO 196501:2018) về nguyên tắc quản lý quá trình tạo lập và chuyển giao/phân phối/cung cấp thông tin, đồng thời làm rõ mối quan hệ giữa các bên khi quản lý thông tin
 
-![Image](images/image_000012_1cf90358eff36276a481cb020edbadfa17e20368d22ab4982b859340dfbb5007.png)
+![Image](images/image_000012_5cc2c43c99d3fe7633e612f5312b93154f01dfe4ea122d619c4458e09e10ed9e.png)
 
 ## 6.2.4. Nguyên tắc xác minh, xác thực thông tin tại một bước của dự án
 
@@ -922,7 +922,7 @@ Hình 12. Diễn giải hình 6 trong TCVN 14177 -1:2024 ( biên soạn căn c�
 
 Chú thích: 'n' là thứ tự của bước, tùy theo quy định pháp lý và yêu cầu của dự án, số bước dự án sẽ được xác định
 
-![Image](images/image_000013_8adf52fa3a62083ad0316db5c7055d2e67d66661f8479f6f69b3f71e38e62ce8.png)
+![Image](images/image_000013_5c65bffbbbefaa1b67c61c8a7f449988550ade372bc72c79c584955212b5c9e4.png)
 
 Hình 13. Diễn giải hình 6 của TCVN 14177-1:2024 ( biên soạn căn cứ theo ISO 196501:2018) về nguyên tắc xác thực thông tin giữa bên đặt hàng và bên thực hiện chính tại mỗi bước, cần đánh giá bước đã hoàn tthành trước khi thực hiện bước tiếp theo
 
@@ -934,7 +934,7 @@ Thông tin chuyển giao tới bên đặt hàng ngoài việc ra quyết địn
 
 Hình 14 . Diễn giải hình 8 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 196501:2018) về khái quát nguyên tắc hình thành thông tin bởi nhóm chuyển giao
 
-![Image](images/image_000014_f14862e1b21ecb9cd66626909b0e0957e16bd56e1bad9e634d1de3a055b3b7ed.png)
+![Image](images/image_000014_c43e5f1def8f3f60714b9b03fe80fd6d49966799a4be28ec82e2f8e4ac6f457c.png)
 
 Để làm rõ các loại vai trò và các loại nhóm khi triển khai BIM có thể tổng hợp lại như sau:
 
@@ -948,7 +948,7 @@ Hình 9 trong TCVN 14177-1 tổng hợp nguyên tắc chuyển giao/phân phối
 
 Hình 15. Diễn giải hình 9 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 19650-1:2018) về tổng hợp nguyên tắc hình thành thông tin 'tin cậy' cho PIM và AIM, đồng thời hỗ trợ việc ra quyết định tại các thời điểm quan trọng của dự án
 
-![Image](images/image_000015_1efda1540c5cd256a36d59bf3d7d77421bf6563c3517ba24e9b4d9860c33984c.png)
+![Image](images/image_000015_9cfce1c1d7d0b50abe3363514799754a6f0a8be3d498dfc06feee97c1aa61310.png)
 
 ## 6.3. Nguyên tắc chung cho môi trường dữ liệu chung (CDE)
 
@@ -969,7 +969,7 @@ Nguyên tắc được thể hiện trong hình 10 của TCVN 14177-1 được d
 
 Hình 16. Diễn giải hình 10 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 19650-1:2018) về khái quát nguyên tắc cơ bản của môi trường dữ liệu chung
 
-![Image](images/image_000016_824a7f89fac4c8755d05d6c67a4a3345ce3acd06b9679bb5117be200fd10959c.png)
+![Image](images/image_000016_0fc9946cac7aa6c55af59c18b64c17f7ebe2786cc1a9616c5433d3767a03a73f.png)
 
 Với minh họa của môi trường dữ liệu chung trong hình 10 có thể thấy đường đi của dữ liệu sẽ được đi từ WIP chuyển sang 'shared' (phù hợp chia sẻ giữa các bên, đáp ứng việc xem xét, kiểm tra và phê duyệt) tiếp tục chuyển sang 'published' (công bố toàn dự án). Thông tin được hình thành và tạo lập theo các nguyên tắc ở các phần trên, chuyển hóa thành dữ liệu và được đặt ở các vùng khác nhau trên CDE cho các mục đích cụ thể. Điểm lưu ý quan trọng là hướng đi từ 'published' (công bố) sang 'archive' (lưu trữ) là không có định hướng bắt buộc, 'archive' có thể đứng độc lập tùy theo nhu cầu của dự án. Trong thực tế, vùng 'archive' có thể sử dụng như một vùng an toàn dữ liệu, các dữ liệu có giá trị pháp lý cuối cùng tại mỗi bước (stage) có thể được lưu trữ tại đây, hoặc quá trình phát triển dự án có thể lưu vết theo định kỳ (backup) để đảm bảo an toàn dữ liệu có thể được đặt tại đây.
 
@@ -989,7 +989,7 @@ Các vấn đề quan trọng trong hình 11 đươc làm rõ như sau:
 
 ## Hướng dẫn áp dụng TCVN 14177-1; TCVN 14177-2
 
-![Image](images/image_000017_b3e608779ec1d543c6b8646afe1287ffdef47d63b7fcd5e7fc6ee2cabf7d27af.png)
+![Image](images/image_000017_c4165deab4f3a93389b3045006303458196eae1057fcb5fea37ec89805e71410.png)
 
 L
 
@@ -1001,7 +1001,7 @@ Phụ lục của TCVN 14177-1:2024 và ISO 19650-1:2018 tập trung hướng d�
 
 Việc chia tách cấu trúc các IC có tổ chức và có chiến lược thực hiện rõ ràng sẽ là tiền đề quan trọng cho việc bảo đảm an toàn, bảo mật thông tin, và giúp quá trình quản lý khai thác thông tin được thuận lợi. Hình A.1 của phụ lục minh họa các cấu trúc chia tách va liên hợp IC điển hình trong một công trình dân dụng, các IC được phân tách theo bộ môn thiết kế
 
-![Image](images/image_000018_41b57ded7cbc7fd4a43f7de1060df845724c39a154072e8081985648802ff6e1.png)
+![Image](images/image_000018_0164893a8d729a777c2bf95db8962735e69a5b96cea83764b9639c2740147b41.png)
 
 ## Chú thích:
 
@@ -1021,11 +1021,11 @@ Trong thực tế triển khai việc rất cần chia tách các IC để các
 
 Hình 19. Diễn giải minh họa hình A.2 của của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 19650-1:2018) về chia tách công-te-nơ thông tin đáp ứng làm việc đồng thời của các bộ môn khi thực hiện các quá trình của BIM
 
-![Image](images/image_000019_4a2a70f27c123c9e2b0009a472b69b71ee2165276f05ec151b5158734d26f66e.png)
+![Image](images/image_000019_0d3e1679f9887009ccb69b9f609c3caf4e717715c137db3e1204043b62cc00b6.png)
 
 Hình 20 . Diễn giải minh họa hình A.3 của TCVN 14177-1:2024 (biên soạn căn cứ theo ISO 19650-1:2018) về chia tách công-te-nơ thông tin đảm bảo an ninh, an toàn thông tin cho dự án
 
-![Image](images/image_000020_f817f3c2be61076d35d007913ee36ea7db5767510e30547b9b5e693e072e3282.png)
+![Image](images/image_000020_fee3828b8c6b78a925d1d7061b9384fe015582c4cd83eb2cb42bbdf8683454e3.png)
 
 ## 8. Hướng dẫn thực hiện TCVN 14177-2:2024
 
@@ -1035,7 +1035,7 @@ Các nguyên tắc và khái niệm cơ bản được quy định trong TCVN 14
 
 Hình 21 . Diễn giải các bước và phân loại khái quát các bước theo các nhóm vấn đề khác nhau
 
-![Image](images/image_000021_915c2c4c94a4d25882869fa4e8af4ec20f3d97c22e57c121d0f1dceaeae01f18.png)
+![Image](images/image_000021_69ce602908038f9d4b3b53696282c990bcdad28551be113fc04fc55950802af0.png)
 
 (Nguồn: ISO 19650 Guidance 2: Delivery phase)
 
@@ -1045,7 +1045,7 @@ Các mối quan hệ giữa các bên đặt hàng (appointing party), bên th�
 
 các vai trò đã được xác lập theo thông lệ thực hiện dự án xây dựng, chúng chỉ hỗ trợ làm rõ những vấn dề liên quan tới thông tin trong dự án.
 
-![Image](images/image_000022_d2259e2c1ae06fc7a5d2c782962056d73e9e7f62798804b964881621ec53a449.png)
+![Image](images/image_000022_6beb108a90616d7b31213fc1c5fecc909939aa1b3a07ab1c9aff3499b6d3f4ab.png)
 
 ## Chú thích
 
@@ -1182,7 +1182,7 @@ Với 08 bước thiết lập cho quá trình BIM các vai trò sẽ được p
 
 ## 8.4.1. Khái quát quá trình chuyển giao thông tin tại giai đoạn hình thành tài sản xây dựng
 
-![Image](images/image_000023_dbc539c84bd1174e931ab80a38852b46da33719778b3cfe5c696286779da0f65.png)
+![Image](images/image_000023_54c1bea0bd761e8b8119863a1f7c7fe256e2c75739d65b43ad1d0ab9b34407ee.png)
 
 ## Các hoạt động:
 
@@ -1212,7 +1212,7 @@ Lưu ý: các vấn đề về quá trình 'process' và thủ tục trình tự
 
 Để bắt đầu quá trình BIM cho dự án, bước 1 cần xem xét đánh giá như cầu BIM cho dự án, bước này được đặt ở cấp độ dự án, các công việc này làm rõ mong muốn cũng như khả năng tiếp nhận BIM của bên đặt hàng (appointing party). Tổng hợp các quá trình thực hiện tại bước 1 được làm rõ trong hình 4 của TCVN 14177-2:2024 (hình 4 thể hiện chi tiết hóa hình 3 và tập trung vào bước số 1)
 
-![Image](images/image_000024_916cfeda1e956ef29514757d40d5d7e2984b8b0d5e82868d7f7e4e74e506c3b6.png)
+![Image](images/image_000024_2892111fd67bee7f61225b80db834f85902dbb570bc88d1090f303f47316878a.png)
 
 ## Chú dẫn:
 
@@ -1268,7 +1268,7 @@ Bước 2 của quá trình thực hiện BIM được tổng hợp theo Hình 5
 
 bên thực hiện chính tiềm năng tham gia vào quá trình thực hiện BIM cho dự án. Trong thực tế phần việc thực hiện BIM chủ đầu tư có thể tách riêng thành một gói thầu, các nội dung tại bước này hướng dẫn các vấn đề quan trọng với hồ sơ mời thầu cho BIM. Nếu không thực hiện đấu thầu BIM độc lập bước này cũng có thể hiểu là hoàn thiện các nhu cầu BIM của dự án để gửi đến các tổ chức có tiềm năng thực hiện, mời họ tham gia
 
-![Image](images/image_000025_183cf10262fb03d872782a9cc25e8ec25600b52e1d3663015f0f1be8b37278d5.png)
+![Image](images/image_000025_06ecb4e46554eae4e808936f28382f812780c2629ff117408368e03eb8bdb989.png)
 
 ## Chú dẫn:
 
@@ -1306,7 +1306,7 @@ Các hoạt động tại bước này từ 2.1 đến 2.4 như hình trên, đ�
 
 Quá trình thực hiện BIM tại bước 3, tập trung xử lý tại bên thực hiện chính tiềm năng. Trong thực tế một tổ chức quan tâm tham gia thực hiện BIM cho dự án sẽ trở thành bên thực hiện chính tiềm năng, tổ chức này sẽ nhận được các nội dung hồ sơ đề xuất ở bước 2 do bên đặt hàng lập và xem xét phản hồi các nội dung được nêu ở bước. Tổng hợp các hoạt động tại bước này được làm rõ trong Hình 6 trong TCVN 14177-2 và ISO 19650-2:2018.
 
-![Image](images/image_000026_4c714d890fdd7634a699ebf0b25fd6d9b68aecd95f5d57b1564cf610cb84926c.png)
+![Image](images/image_000026_22d4764efff2d3014661886a3d3a5397543a4a0a9d6df4f07feac21fc748d26b.png)
 
 ## Chú dẫn:
 
@@ -1361,7 +1361,7 @@ Sau khi kết thúc bước 3, các bên thực hiện chính tiềm năng hoàn
 
 được thể hiện trong hình 7 của TCVN 14177-2 được chuyển ngữ dựa trên ISO 196502:2018.
 
-![Image](images/image_000027_5b348f2077842951db2ff70963dfc4adfcf4a8f2fed8778bc84d27dafcc83143.png)
+![Image](images/image_000027_5dee932a21f4c6b9e89d45db480003a494bf318df5539f92f4b83e929e8155fd.png)
 
 ## Chú dẫn:
 
@@ -1412,7 +1412,7 @@ Các hoạt động tại bước này từ 4.1 đến 4.7 như hình trên, đ�
 
 Sau khi hình thành các thỏa thuận tại bước 4, bên thực hiện chính được xác lập chính thức và sẽ phải huy động (mobilization) thực hiện theo các thỏa thuận, nhóm thực hiện lên kế hoạch huy động. Tổng hợp các hoạt động tại bước này được làm rõ trong hình 8 của TCVN 14177-2:2024 và ISO 19650-2:2018.
 
-![Image](images/image_000028_4605e8654999ed606dd00b6348fa586e21fedde61ab35bd771b34556ae758a92.png)
+![Image](images/image_000028_4a045ce86fb5d40bffd796ad1a45566a9dba86920d5cf9fa532bdcec8129bf2d.png)
 
 ## Chú dẫn:
 
@@ -1445,7 +1445,7 @@ Kết thúc các hoạt động tại bước 5, bên thực hiện chính và c
 
 ## Hướng dẫn áp dụng TCVN 14177-1; TCVN 14177-2
 
-![Image](images/image_000029_4c9cbb25cd862f938f363b231c75a5db9c87a87221b8a4b339e4c8e020f0ca97.png)
+![Image](images/image_000029_4228911a9e8a7d4dfe443d221500f0ac3d6b27f0cddbfcbdfe6d20a5ffa6b5ba.png)
 
 ## Chú dẫn:
 
@@ -1487,7 +1487,7 @@ Kết thúc hoạt động tại bước 6, các công-te-nơ thông tin (inform
 
 Hình 30. Diễn giải Hình 10 của TCVN 14177-2:2024 (biên soạn căn cứ theo ISO 196502:2018) về nội dung các hoạt động tại bước 7 - Chuyển giao mô hình thông tin
 
-![Image](images/image_000030_5f2eabd273fdc2b4ba3871402e3cc7a6a85cfceaabefa7431f132c2d78cabc4d.png)
+![Image](images/image_000030_6fb044556f856ad09fe445ec360f7db5ccbd2f1a8853a3a5f8d3132031301912.png)
 
 ## Hướng dẫn áp dụng TCVN 14177-1:2024; TCVN 14177-2:2024
 
@@ -1511,7 +1511,7 @@ Các hoạt động tại bước này từ 7.1 đến 7.4 như hình trên, đ�
 
 Kết thúc bước 7 các quá trình khởi tạo phối hợp, xác thực thông tin hoàn tất, tại giai đoạn chuyển giao tài sản (delivery phase)', quá trình của BIM đã đạt được PIM (mô hình thông tin dự án (project information model)). Bước 8 thuộc cấp độ dự án nên cần hoàn tất đóng gói bàn giao PIM. Tổng hợp các hoạt động tại bước này được làm rõ trong hình 11 trong TCVN 14177-2.
 
-![Image](images/image_000031_048b7792ec7cc4b31242f3c4ececf06b04a9ce1705cfa82a366d3694b17d12ba.png)
+![Image](images/image_000031_d9537488274cb0155dff2e7d12c38dcada350670bced2e86380bbce462a686d4.png)
 
 ## Chú dẫn:
 
@@ -1536,7 +1536,7 @@ Các hoạt động tại bước bao gồm 8.1 và 8.2 như hình trên, đư�
 
 Hình 32. Tổng hợp diễn giải các bước thực hiện quá trình BIM
 
-![Image](images/image_000032_f4c0bd45abc6eb5ac8a9807c2052e4078ed65249e39732c6e735c851e076c87d.png)
+![Image](images/image_000032_d1c7d53e85d48e3f645f2da04d8c2159e34e496148a68453d566615646e03f93.png)
 
 (Nguồn: ISO 19650 Guidance 2: Delivery phase)
 
