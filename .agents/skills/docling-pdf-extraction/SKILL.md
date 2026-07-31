@@ -78,11 +78,10 @@ def main():
             
         def replace_path(match):
             full_path = match.group(1)
-            # Xóa tiền tố thư mục tuyệt đối và sửa dấu xuyệt
-            rel_path = full_path.replace(project_dir + "\\", "")
-            rel_path = rel_path.replace(project_dir + "/", "")
-            rel_path = rel_path.replace("\\", "/")
-            return f"![Image]({rel_path})"
+            # Chuyển đổi mọi dấu xuyệt ngược thành xuyệt xuôi trước khi lấy tên file
+            full_path_normalized = full_path.replace("\\", "/")
+            basename = os.path.basename(full_path_normalized)
+            return f"![Image](images/{basename})"
             
         md_content = re.sub(r"!\[Image\]\((.*?)\)", replace_path, md_content)
         
