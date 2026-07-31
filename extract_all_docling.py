@@ -8,10 +8,14 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling_core.types.doc.base import ImageRefMode
 
 def main():
-    input_pdf = r"Y:\BIMREADI\2025-TCVN 14177\2025-TCVN 14177\Tai lieu huong dan Bo TCVN 14177.pdf"
-    
+    if len(sys.argv) >= 3:
+        input_pdf = sys.argv[1]
+        base_name = sys.argv[2]
+    else:
+        input_pdf = r"Y:\BIMREADI\2025-TCVN 14177\2025-TCVN 14177\Tai lieu huong dan Bo TCVN 14177.pdf"
+        base_name = "Tai_lieu_huong_dan_Bo_TCVN_14177_Full"
+        
     project_dir = r"g:\My Drive\NGHI DINH-QC-TCVN"
-    base_name = "Tai_lieu_huong_dan_Bo_TCVN_14177_Full"
     
     output_md = os.path.join(project_dir, f"{base_name}.md")
     output_json = os.path.join(project_dir, f"{base_name}.json")
