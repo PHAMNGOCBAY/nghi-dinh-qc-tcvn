@@ -28,6 +28,7 @@ import json
 import os
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling_core.types.doc.base import ImageRefMode
 
 def main():
     input_pdf = r"Y:\BIMREADI\2025-TCVN 14177\2025-TCVN 14177\Tai lieu huong dan Bo TCVN 14177.pdf"
@@ -62,11 +63,11 @@ def main():
         result = converter.convert(input_pdf)
         
         # 1. Xuất ra Markdown (kèm đường dẫn hình ảnh)
-        markdown_content = result.document.export_to_markdown(
-            image_dir=output_images_dir
+        result.document.save_as_markdown(
+            output_md,
+            artifacts_dir=output_images_dir,
+            image_mode=ImageRefMode.REFERENCED
         )
-        with open(output_md, "w", encoding="utf-8") as f:
-            f.write(markdown_content)
         print(f"Đã xuất Markdown tại: {output_md}")
         print(f"Hình ảnh được lưu tại: {output_images_dir}")
         
