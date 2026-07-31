@@ -1,6 +1,8 @@
 import sys
 import json
 import os
+import pathlib
+import os
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling_core.types.doc.base import ImageRefMode
@@ -35,10 +37,29 @@ def main():
         # 1. Export Markdown with image references
         result.document.save_as_markdown(
             output_md,
-            artifacts_dir=output_images_dir,
+            artifacts_dir=pathlib.Path(output_images_dir),
             image_mode=ImageRefMode.REFERENCED
         )
         print(f"Da xuat Markdown thanh cong!")
+        
+        # 1.5. Post-process Markdown to use relative paths for images
+        import re
+        with open(output_md, 'r', encoding='utf-8') as f:
+            md_content = f.read()
+            
+        def replace_path(match):
+            full_path = match.group(1)
+            # Remove absolute prefix and fix slashes
+            rel_path = full_path.replace(project_dir + "\\", "")
+            rel_path = rel_path.replace(project_dir + "/", "")
+            rel_path = rel_path.replace("\\", "/")
+            return f"![Image]({rel_path})"
+            
+        md_content = re.sub(r"!\[Image\]\((.*?)\)", replace_path, md_content)
+        
+        with open(output_md, 'w', encoding='utf-8') as f:
+            f.write(md_content)
+        print(f"Da sua duong dan anh thanh tuong doi trong Markdown!")
         
         # 2. Export JSON
         doc_dict = result.document.export_to_dict()

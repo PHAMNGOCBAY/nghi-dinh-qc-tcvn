@@ -26,6 +26,8 @@ pip install docling
 import sys
 import json
 import os
+import pathlib
+import re
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling_core.types.doc.base import ImageRefMode
@@ -65,11 +67,28 @@ def main():
         # 1. Xuất ra Markdown (kèm đường dẫn hình ảnh)
         result.document.save_as_markdown(
             output_md,
-            artifacts_dir=output_images_dir,
+            artifacts_dir=pathlib.Path(output_images_dir),
             image_mode=ImageRefMode.REFERENCED
         )
         print(f"Đã xuất Markdown tại: {output_md}")
-        print(f"Hình ảnh được lưu tại: {output_images_dir}")
+        
+        # 1.5. Sửa đường dẫn hình ảnh thành tương đối (để xem được trên GitHub)
+        with open(output_md, 'r', encoding='utf-8') as f:
+            md_content = f.read()
+            
+        def replace_path(match):
+            full_path = match.group(1)
+            # Xóa tiền tố thư mục tuyệt đối và sửa dấu xuyệt
+            rel_path = full_path.replace(project_dir + "\\", "")
+            rel_path = rel_path.replace(project_dir + "/", "")
+            rel_path = rel_path.replace("\\", "/")
+            return f"![Image]({rel_path})"
+            
+        md_content = re.sub(r"!\[Image\]\((.*?)\)", replace_path, md_content)
+        
+        with open(output_md, 'w', encoding='utf-8') as f:
+            f.write(md_content)
+        print(f"Đã sửa đường dẫn ảnh thành tương đối trong Markdown!")
         
         # 2. Xuất ra JSON
         doc_dict = result.document.export_to_dict()
