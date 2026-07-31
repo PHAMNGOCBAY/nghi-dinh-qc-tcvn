@@ -23,7 +23,7 @@ def main():
     
     os.makedirs(output_images_dir, exist_ok=True)
     
-    print(f"Bat dau trich xuat toan dien: {input_pdf}")
+    print("Bat dau trich xuat toan dien...")
     
     try:
         # Cấu hình Pipeline để trích xuất hình ảnh và sơ đồ
