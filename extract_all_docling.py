@@ -22,9 +22,11 @@ def main():
     print(f"Bat dau trich xuat toan dien: {input_pdf}")
     
     try:
+        # Cấu hình Pipeline để trích xuất hình ảnh và sơ đồ
         pipeline_options = PdfPipelineOptions()
-        pipeline_options.generate_picture_images = True
+        pipeline_options.generate_picture_images = True # Bật trích xuất hình ảnh
         pipeline_options.generate_page_images = False
+        pipeline_options.images_scale = 4.0 # Tăng độ phân giải ảnh (mặc định là 2.0)
         
         converter = DocumentConverter(
             format_options={

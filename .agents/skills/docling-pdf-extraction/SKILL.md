@@ -53,6 +53,7 @@ def main():
         pipeline_options = PdfPipelineOptions()
         pipeline_options.generate_picture_images = True # Bật trích xuất hình ảnh
         pipeline_options.generate_page_images = False
+        pipeline_options.images_scale = 4.0 # Tăng độ phân giải ảnh để dễ nhìn hơn (mặc định là 2.0)
         
         # Khởi tạo DocumentConverter với cấu hình tùy chỉnh
         converter = DocumentConverter(
