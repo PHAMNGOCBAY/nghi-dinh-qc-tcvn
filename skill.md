@@ -89,3 +89,46 @@ Nếu kết quả từ `docling` đối với một số sơ đồ đặc thù c
 - **`marker-pdf`**: Dùng lệnh `marker_single file.pdf --output_dir out/` (Chuyên trị công thức Toán và layout phức tạp).
 - **`Camelot`** / **`pdfplumber`**: Chuyên dùng để trích xuất bảng biểu có độ chính xác cực cao sang file CSV/Excel.
 - **Mermaid.js**: Nếu bạn muốn tự tạo và vẽ sơ đồ dạng Text-to-Diagram thẳng vào file Markdown.
+
+## 4. Tạo và xử lý công thức Toán học (LaTeX) bằng Python
+Nếu trong tài liệu có các công thức phức tạp và bạn muốn dùng Python để sinh ra mã LaTeX cho các công thức đó, thư viện **`sympy`** là lựa chọn tuyệt vời.
+
+**Cài đặt:**
+```bash
+pip install sympy
+```
+
+**Script Python tạo mã LaTeX cho công thức:**
+Đoạn code sau đây sử dụng `sympy` để tạo một biểu thức toán học phức tạp (ví dụ: Tích phân hoặc Phương trình) và xuất ra định dạng mã LaTeX chuẩn để chèn vào Markdown (`*.md`) hoặc file LaTeX (`*.tex`).
+
+```python
+import sympy as sp
+
+def main():
+    # Khai báo các biến toán học
+    x, y, a, b = sp.symbols('x y a b')
+    
+    # 1. Tạo một công thức phương trình bậc 2
+    equation = sp.Eq(a*x**2 + b*x, y)
+    latex_eq = sp.latex(equation)
+    
+    # 2. Tạo một công thức tích phân
+    integral = sp.Integral(sp.exp(-x**2), (x, -sp.oo, sp.oo))
+    latex_integral = sp.latex(integral)
+    
+    print("--- Mã LaTeX cho Phương trình bậc 2 ---")
+    print(f"$$ {latex_eq} $$")
+    print("\n--- Mã LaTeX cho Tích phân Gauss ---")
+    print(f"$$ {latex_integral} $$")
+
+    # Bạn có thể lưu vào file
+    with open("cong_thuc.md", "w", encoding="utf-8") as f:
+        f.write("### Các công thức sinh bằng Python:\n\n")
+        f.write(f"$$ {latex_eq} $$\n\n")
+        f.write(f"$$ {latex_integral} $$\n")
+
+if __name__ == "__main__":
+    main()
+```
+
+Khi chạy code này, bạn sẽ nhận được mã LaTeX nguyên bản như `\int\limits_{-\infty}^{\infty} e^{- x^{2}}\, dx`. Các mã này khi dán vào file `.md` sẽ tự động được hiển thị thành công thức toán học cực chuẩn!
