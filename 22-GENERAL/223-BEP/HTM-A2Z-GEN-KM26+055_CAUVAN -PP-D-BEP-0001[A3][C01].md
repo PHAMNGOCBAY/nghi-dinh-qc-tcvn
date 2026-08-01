@@ -80,7 +80,9 @@ A2Z
 
 Mai Zhanh Hà
 
-## DOANH NGHIÊP DU ÁN CÔNG TY TRÁCH NHIM HÛU HAN BOT CAO TÓC SÀI GÒN – MÝ THUÂN
+## DOANH NGHIÊP DU ÁN
+
+## CÔNG TY TRÁCH NHIM HÛU HAN BOT CAO TÓC SÀI GÒN – MÝ THUÂN
 
 -------8008-------
 
@@ -4042,7 +4044,7 @@ Bảng 1 -15. B ả ng k ế ho ạ ch chuy ể n giao thông tin t ổ ng th �
 |         2.0 |                            |                   |                  |                   |                                                 |
 |         3.0 |                            |                   |                  |                   |                                                 |
 
-![Image](HTM-A2Z-GEN-KM26+055_CAUVAN -PP-D-BEP-0001[A3][C01]_images/image_000183_0a2ce036090cd8f3b218045e786ed4e8b80d7c96e1cf7a1cf9ec35a20eab58b8.png)
+![Image](HTM-A2Z-GEN-KM26+055_CAUVAN -PP-D-BEP-0001[A3][C01]_images/image_000183_f51977db325575a1b87d8d24dc4d9e6608f808c3c5698317a06f251a3655c5ec.png)
 
 ## Bảng 1 -16. B ả ng k ế ho ạ ch chuy ể n giao thông tin t ổ ng th ể (MIDP)
 

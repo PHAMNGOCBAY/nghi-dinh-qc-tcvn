@@ -152,3 +152,14 @@ if __name__ == "__main__":
 ```
 
 Khi chạy code này, bạn sẽ nhận được mã LaTeX nguyên bản như `\int\limits_{-\infty}^{\infty} e^{- x^{2}}\, dx`. Các mã này khi dán vào file `.md` sẽ tự động được hiển thị thành công thức toán học cực chuẩn!
+
+## 5. Xử lý Hàng loạt (Batch Processing) và Bảo mật Dữ liệu
+
+Khi làm việc với dự án thực tế chứa nhiều thư mục và hàng loạt file PDF:
+
+1. **Script `batch_extract.py`**:
+   Thay vì trích xuất từng file, sử dụng vòng lặp `os.walk` qua toàn bộ thư mục nguồn (như ACCDocs) và duy trì cấu trúc thư mục tương đối để xuất ra file Markdown + JSON + hình ảnh tương ứng. (Tham khảo mã nguồn `batch_extract.py` trong dự án).
+
+2. **Quy tắc bỏ qua dữ liệu thực tế (`.gitignore`)**:
+   - **Tuyệt đối không upload** các thư mục chứa dữ liệu thực tế của công ty/dự án (như `22-GENERAL/`, `BIM/`, PDF gốc) lên GitHub.
+   - Luôn luôn thêm tên các thư mục hoặc loại file (`*.json`) chứa nội dung thực tế vào file `.gitignore` ngay trước khi commit.
