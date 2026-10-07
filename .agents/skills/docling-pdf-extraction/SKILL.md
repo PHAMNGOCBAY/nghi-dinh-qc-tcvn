@@ -153,7 +153,40 @@ if __name__ == "__main__":
 
 Khi chạy code này, bạn sẽ nhận được mã LaTeX nguyên bản như `\int\limits_{-\infty}^{\infty} e^{- x^{2}}\, dx`. Các mã này khi dán vào file `.md` sẽ tự động được hiển thị thành công thức toán học cực chuẩn!
 
-## 5. Xử lý Hàng loạt (Batch Processing) và Bảo mật Dữ liệu
+## 5. Xử lý lỗi torch.compile/Inductor trên Windows (khi dùng GPU)
+
+Khi chạy docling với `AcceleratorDevice.CUDA` trên Windows, mô hình layout (transformers/torch) có thể tự
+động dùng `torch.compile`. Lỗi thường gặp:
+
+```
+FileExistsError: [WinError 183] Cannot create a file when that file already exists:
+'...\torchinductor_<user>\cache\.xxxxx.tmp' -> '...\torchinductor_<user>\cache\<hash>'
+```
+
+Đây là lỗi tranh chấp ghi cache của Inductor, đặc thù Windows, khiến tiến trình lặp lại lỗi liên tục (GPU
+tưởng như không hoạt động vì bị kẹt retry). Cách khắc phục — tắt `torch.compile`, vẫn giữ nguyên suy luận
+trên GPU CUDA (thêm vào đầu script, **trước** khi import các module docling):
+
+```python
+import os
+os.environ["TORCHDYNAMO_DISABLE"] = "1"
+os.environ["TORCH_COMPILE_DISABLE"] = "1"
+
+import torch._dynamo
+torch._dynamo.config.disable = True
+torch._dynamo.config.suppress_errors = True
+```
+
+Nếu đã từng gặp lỗi này trước đó, nên xóa cache hỏng trước khi chạy lại:
+
+```powershell
+Remove-Item -Recurse -Force "$env:TEMP\torchinductor_$env:USERNAME" -ErrorAction SilentlyContinue
+```
+
+Kiểm tra GPU có thực sự được dùng hay không bằng `nvidia-smi --query-gpu=utilization.gpu,memory.used --format=csv`
+— nếu `memory.used` tăng đáng kể so với mức nền, mô hình đã được nạp lên GPU.
+
+## 6. Xử lý Hàng loạt (Batch Processing) và Bảo mật Dữ liệu
 
 Khi làm việc với dự án thực tế chứa nhiều thư mục và hàng loạt file PDF:
 
